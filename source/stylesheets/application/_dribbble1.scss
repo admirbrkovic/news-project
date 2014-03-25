@@ -6,7 +6,7 @@
 	.ver-line1 {
 		height: 60px;
 		width: 1px;
-		border: 1px solid #cccccc;
+		border: 1px solid #a8a8a8;
 		margin-left: 140px;
 	}
 
@@ -70,13 +70,190 @@
 		background-color: white;
 		margin-left: 200px;
 		border-radius: 0px 0px 5px 5px;
-		margin-top: -19px;
+		margin-top: -1px;
 		font-size: 24px;
 		padding-left: 30px;
-		padding-top: 20px;
+		padding-top: 10px;
 		color: grey;
+        border-top: 2px solid #b8b8b8;
+        border-bottom: 2px solid #8f8f8f;
+    }
+
+    .ver-line2 {
+		height: 260px;
+		width: 1px;
+		border: 1px solid #a8a8a8;
+		margin-left: 140px;
+		margin-top: -133px;
+	}
+
+	.alice-lbox {
+		height: 50px;
+		width: 280px;
+		border-radius: 30px;
+		background-color: white;
+		margin-left: 200px;
+		margin-top: -132px;
+		padding-top: -5px;
+		padding-left: 25px;
+
+		h3 {
+			padding-top: 15px;
+			color: #4f6eff;
+		}
+
+		strong {
+            color: black;
+		}
+	}
+
+	#img2 {
+		margin-top: 70px;
+	}
+
+	.comment2 {
+		width: 1650px;
+		height: 60px;
+		background-color: white;
+		margin-left: 200px;
+		border-radius: 5px;
+		margin-top: -90px;
+		border-bottom: 2px solid #8f8f8f;
+	}
+
+	 .btn2 {
+    	background-color: #aec143;
+    	height: 40px;
+    	width: 150px;
+    	border: 0px;
+    	border-radius: 7px;
+    	margin-left: 10px;
+    	margin-top: 10px;
+    	color: white;
+    	
+    } 
+
+     #comment2icon {
+    	color: grey;
+    	margin-top: -40px;
+    	margin-left: 1300px;
+    }
+
+     #comment2date {
+    	margin-left: 1350px;
+    	margin-top: -38px;
+    }
+
+      #comment2hedline {
+    	margin-left: 185px;
+    	margin-top: -47px;
+    }
+
+      #comment2link {
+         
+         margin-top: -40px;
+         margin-left: 270px;
+         color: #4f6c2e;
+         text-decoration: line-through;
 
     }
+
+    #img3 {
+		margin-top: 1px;
+	}
+
+	.comment3 {
+		width: 1650px;
+		height: 60px;
+		background-color: white;
+		margin-left: 200px;
+		border-radius: 5px 5px 0px 0px;
+		margin-top: -85px;
+		border-bottom: 2px solid #8f8f8f;
+	}
+
+	 .btn3 {
+    	background-color: #9983cc;
+    	height: 40px;
+    	width: 150px;
+    	border: 0px;
+    	border-radius: 7px;
+    	margin-left: 10px;
+    	margin-top: 10px;
+    	color: white;
+    	
+    } 
+
+      #comment3icon {
+    	color: grey;
+    	margin-top: -40px;
+    	margin-left: 1300px;
+    }
+
+     #comment3date {
+    	margin-left: 1350px;
+    	margin-top: -38px;
+    }
+
+      #comment3hedline {
+    	margin-left: 185px;
+    	margin-top: -47px;
+    }
+
+      #comment3link {
+         
+         margin-top: -40px;
+         margin-left: 300px;
+         color: maroon;
+       }
+
+     .comm3big {
+        width: 1650px;
+		height: 250px;
+		background-color: white;
+		margin-left: 200px;
+		border-radius: 0px 0px 5px 5px;
+		margin-top: -1px;
+		color: grey;
+        border-top: 2px solid #b8b8b8;
+        border-bottom: 2px solid #8f8f8f;
+
+       }
+
+     #img-big1 {
+     	img {
+        border-radius: 9px;
+        margin-left: 25px;
+       }
+   }
+
+    .takeshi-lbox {
+		height: 50px;
+		width: 295px;
+		border-radius: 30px;
+		background-color: white;
+		margin-left: 200px;
+		margin-top: -90px;
+		padding-top: -5px;
+		padding-left: 25px;
+
+		h3 {
+			padding-top: 15px;
+			color: #4f6eff;
+		}
+
+		strong {
+            color: black;
+		}
+	}
+
+	.ver-line5 {
+		height: 335px;
+		width: 1px;
+		border: 1px solid #a8a8a8;
+		margin-left: 140px;
+		margin-top: -250px;
+	}
 
 
 
