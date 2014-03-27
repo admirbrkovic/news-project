@@ -1,29 +1,96 @@
+
 .dribbble4 {
-	background-color: #f9f9f9;
+	  
+      background-color: #e3e3e3;
+      margin-left: 50px;
+    
+    .alll {
+       padding: 20px;
+    .btn1 {
 
-	.btn1 {
-		height: 50px;
-		width: 50px;
-		border-radius: 30px;
-		background-color: white; 
-		border: 1px solid grey;
-		margin-left: 150px;
-		margin-top: 100px;
-
-		.btn11 {
-			height: 40px;
-			width: 40px;
-			background-color: grey;
-			border-radius: 30px;
-			margin-left: 5px;
-			margin-top: 5px;
-
-		}
-
-		i {
-			color: white;
-			margin-left: 10px;
-			margin-bottom: -20px;
-		}
-	}
+    .icon {
+       background-color: #ffffff;
+       height: 43px;
+       width: 43px;
+       border-radius: 20px;
+       border: 1px solid #d2d2d2;
+       padding: 3px;
+       margin-top: 45px;
+    
+    .ring {
+       @include size(35px 35px);
+       background-color: #d2d2d2;
+       border-radius: 16px;
+       text-align: center;
+       padding: 8px;
+     i {
+        color: #ffffff;
+     }
+     }
+   
 }
+    .box1 {
+        width: 600px;
+        height: 85px;
+        background-color: #ffffff;
+        padding: 15px;
+        margin-left: 65px;
+        margin-top: -63px;
+        border:  1px solid #c4c4c4;;
+    .pic {
+        height: 48px;
+        width: 48px;
+        background-color: #2a2a2a;
+      }
+    .boxin {
+    .text {
+    .text2 {
+	     margin-left: 65px;
+	     margin-top: -40px;
+         height: 15px;
+         font-size: 14px;
+     a {
+         color: #edb360;
+       }
+    }
+  }
+    .time {
+         font-size: 12px;
+         color: #d2d2d2;
+         margin-left: 65px;
+         margin-top: 9px;
+     }
+  }
+  }
+    .box1::after {
+         @include size(10px 10px);
+         background-color: #ffffff;
+         content: "";
+         display: block;
+         margin: -25px 0px 0px -21px;
+         position: relative;
+         @include transform(rotate(45deg));
+         border-left: 1px solid #c4c4c4;
+         border-bottom: 1px solid #c4c4c4;
+       }
+     &:hover {
+     .icon {
+         border: 1px solid #edb360;
+    .ring {
+         background-color: #edb360;
+       }
+    }
+     .box1 {
+         border: 1px solid #edb360;
+      }
+     .box1::after {
+         border-left: 1px solid #edb360;
+         border-bottom: 1px solid #edb360;
+      }
+   }
+ }
+     
+    
+   }
+   
+  }
