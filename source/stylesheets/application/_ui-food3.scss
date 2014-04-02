@@ -1,0 +1,57 @@
+.ui-food3 {
+	
+	.column3 {
+		height: 500px;
+		background-color: #ededed;
+		margin-top: 30px;
+		box-shadow: 6px 5px 5px 0px  rgba(0,5,5, .5);
+		img {
+			height: 250px;
+
+			width: 400px;
+
+		}
+	}
+
+
+
+	 .column {
+       @include outer-container;
+    }
+    .column6 {
+       @include span-columns(6);
+    }
+
+    .column4 {
+       @include span-columns(4);
+    }
+
+    .column2 {
+       @include span-columns(2);
+    }
+
+    .column8 {
+       @include span-columns(8);
+    }
+
+    .column10 {
+       @include span-columns(10);
+    }
+
+    .column3 {
+       @include span-columns(3);
+    }
+
+    .column5 {
+       @include span-columns(5);
+    }
+
+    .column1 {
+       @include span-columns(1);
+    }
+
+    .column9 {
+       @include span-columns(9);
+    }
+
+}

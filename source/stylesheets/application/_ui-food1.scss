@@ -18,12 +18,12 @@ $max-width: 1660px;
 		height: 450px;
 		width: 270px;
 		h3 {
-			color: #0071ff;
+			color: #4a4a4a;
 			margin-top: -15px;
 			font-family: sans-serif, verdana;
 			font-size: 20px;
 			span {
-				color: red;
+				color: #0d9ebc;
 				padding-left: 20px;
 				font-size: 24px;
 			}
@@ -83,6 +83,7 @@ $max-width: 1660px;
         .btn-group2 {
         	margin-top: 8px;
 
+
         	
         	.btn4 {
         	  height: 40px;
@@ -90,10 +91,34 @@ $max-width: 1660px;
         	  border-radius: 5px;
         	  border: 0px;
         	  background-color: #e3e3e3;
-        	}
+        	  margin-left: -10px;
+        	
         }
 		
 	}
+
+	.nut-fild {
+		height: 50px;
+		background-color: #e3e3e3;
+		width: 267px;
+		margin-left: -13px;
+		border-radius: 0px 0px 6px 6px;
+		margin-top: 9px;
+		
+		padding-top: 7px;
+		h3 {
+			color: grey;
+			font-size: 16px;
+			margin-left: 30px;
+			margin-top: -2px;
+		}
+		span {
+			color: grey;
+			font-size: 16px;
+			margin-right: 20px;
+		}
+	}
+}
  
 
 	
@@ -139,4 +164,6 @@ $max-width: 1660px;
        @include span-columns(9);
     }
 
-}
+
+
+   }
