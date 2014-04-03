@@ -1,0 +1,79 @@
+.ui-food4 {
+	background-color: #98ced9;
+
+    .column4 {
+    	height: 600px;
+    	background-color: white;
+    	margin-top: 30px;
+    	box-shadow: 6px 5px 5px 0px  rgba(0,5,5, .5);
+    	border-radius: 10px;
+    	img {
+    		height: 300px;
+    		width: 480px;
+    		margin-top: 20px;
+    		margin-left: 23px;
+    		border-radius: 10px;
+    	}
+    	h2 {
+    		margin-left: 20px;
+    		margin-top: 10px;
+    		font-family: serif, georgia;
+    		color: grey;
+    	}
+
+    	.bigtext {
+    		height: 150px;
+    		width: 477px;
+    		border: 0px;
+    		margin-left: 20px;
+    		margin-top: -10px;
+    		p {
+    			font-family: serif, georgia;
+    			color: grey;
+    			margin-top: 10px;
+    			color: black;
+    		}
+    	}
+    }
+
+
+	.column {
+       @include outer-container;
+    }
+    .column6 {
+       @include span-columns(6);
+    }
+
+    .column4 {
+       @include span-columns(4);
+    }
+
+    .column2 {
+       @include span-columns(2);
+    }
+
+    .column8 {
+       @include span-columns(8);
+    }
+
+    .column10 {
+       @include span-columns(10);
+    }
+
+    .column3 {
+       @include span-columns(3);
+    }
+
+    .column5 {
+       @include span-columns(5);
+    }
+
+    .column1 {
+       @include span-columns(1);
+    }
+
+    .column9 {
+       @include span-columns(9);
+    }
+
+}
